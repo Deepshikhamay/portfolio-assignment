@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react';
 
 const ContactForm = () => {
 
@@ -24,10 +23,6 @@ const ContactForm = () => {
     //         alert('Failed to send message. Please try again later.');
     //     }
     // };
-
-    const onButtonHandle = () => {
-        alert("Message Sent")
-    }
 
     return (
         <div >
